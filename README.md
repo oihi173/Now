@@ -14,12 +14,19 @@ gui.ResetOnSpawn = false
 gui.IgnoreGuiInset = true
 gui.Parent = playerGui
 
--- Lista de teleportes
+-- Lista de teleportes (11 locais)
 local teleports = {
     {name = "Local 1", pos = Vector3.new(4009.78, 21.37, -6705.96)},
     {name = "Local 2", pos = Vector3.new(4125.84, 37.00, -6733.84)},
     {name = "Local 3", pos = Vector3.new(4124.55, 21.37, -6744.80)},
-    {name = "Local 4", pos = Vector3.new(3953.47, 21.00, -6689.76)}
+    {name = "Local 4", pos = Vector3.new(3953.47, 21.00, -6689.76)},
+    {name = "Local 5", pos = Vector3.new(4100.20, 22.10, -6710.33)},
+    {name = "Local 6", pos = Vector3.new(4077.15, 21.50, -6695.70)},
+    {name = "Local 7", pos = Vector3.new(3999.42, 21.00, -6722.18)},
+    {name = "Local 8", pos = Vector3.new(4022.11, 21.80, -6748.55)},
+    {name = "Local 9", pos = Vector3.new(4140.66, 38.20, -6702.74)},
+    {name = "Local 10", pos = Vector3.new(3968.37, 20.90, -6666.12)},
+    {name = "Local 11", pos = Vector3.new(3935.25, 21.30, -6699.47)}
 }
 
 -- Painel lateral
